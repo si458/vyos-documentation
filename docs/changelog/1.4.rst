@@ -8,6 +8,33 @@
    _ext/releasenotes.py
 
 
+2021-08-08
+==========
+
+* :vytask:`T3705` (bug): IPSec: VTI interface does not honor default-esp-group
+* :vytask:`T2027` (bug): get_config_dict is failing when the configuration section is empty/missing
+
+
+2021-08-05
+==========
+
+* :vytask:`T3719` (bug): Restart vpn shows some missed files
+* :vytask:`T696` (feature): Rewrite conntrack  sync to XML
+
+
+2021-08-04
+==========
+
+* :vytask:`T3704` (feature): Add ability to interact with Areca RAID adapers
+* :vytask:`T3718` (bug): VPN IPsec IKE group by default not use DH-group 2
+
+
+2021-08-02
+==========
+
+* :vytask:`T3601` (default): Error in ssh keys for vmware cloud-init if ssh keys is left empty.
+
+
 2021-08-01
 ==========
 
@@ -138,7 +165,6 @@
 2021-06-18
 ==========
 
-* :vytask:`T3634` (feature): Add op command option for ping for do not fragment bit to be set
 * :vytask:`T3599` (default): Migrate NHRP to XML/Python
 
 
@@ -603,7 +629,6 @@
 2021-03-22
 ==========
 
-* :vytask:`T3402` (feature): Add VyOS programming library for operational level commands
 * :vytask:`T3284` (bug): merge/load fail silently if unable to resolve host
 
 
@@ -768,7 +793,7 @@
 ==========
 
 * :vytask:`T3313` (bug): ospfv3 interface missing options
-* :vytask:`T3318` (feature): Update Linux Kernel to v5.4.135 / 5.10.53
+* :vytask:`T3318` (feature): Update Linux Kernel to v5.4.139 / 5.10.57
 
 
 2021-02-15
