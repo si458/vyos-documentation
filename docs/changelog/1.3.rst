@@ -8,6 +8,47 @@
    _ext/releasenotes.py
 
 
+2021-08-08
+==========
+
+* :vytask:`T2027` (bug): get_config_dict is failing when the configuration section is empty/missing
+* :vytask:`T169` (feature): Image install should put correct serial console device in created grub menuentry
+
+
+2021-08-07
+==========
+
+* :vytask:`T548` (feature): BGP IPv6 multipath support
+
+
+2021-08-06
+==========
+
+* :vytask:`T3196` (bug): No NAT translations showing up
+* :vytask:`T1153` (bug): VyOS 1.2.0RC10, RAID-1, fresh install, unable to save config
+
+
+2021-08-05
+==========
+
+* :vytask:`T696` (feature): Rewrite conntrack  sync to XML
+
+
+2021-08-04
+==========
+
+* :vytask:`T3704` (feature): Add ability to interact with Areca RAID adapers
+* :vytask:`T320` (default): ospf does not redistribute connected routes associated with virtuan tunnel interfaces
+
+
+2021-08-02
+==========
+
+* :vytask:`T2623` (bug): Creating sit tunnel fails with “Can not set “local” for tunnel sit tun1 at tunnel creation”
+* :vytask:`T2161` (default): snmpd cannot start if ipv6 disabled
+* :vytask:`T3601` (default): Error in ssh keys for vmware cloud-init if ssh keys is left empty.
+
+
 2021-08-01
 ==========
 
@@ -127,12 +168,6 @@
 
 * :vytask:`T3633` (feature): Add LRO offload for interface ethernet
 * :vytask:`T3632` (bug): policy: route-map: unable to configure route-target / site-of-origin
-
-
-2021-06-18
-==========
-
-* :vytask:`T3634` (feature): Add op command option for ping for do not fragment bit to be set
 
 
 2021-06-17
@@ -672,7 +707,7 @@
 2021-02-16
 ==========
 
-* :vytask:`T3318` (feature): Update Linux Kernel to v5.4.135 / 5.10.53
+* :vytask:`T3318` (feature): Update Linux Kernel to v5.4.139 / 5.10.57
 
 
 2021-02-14
